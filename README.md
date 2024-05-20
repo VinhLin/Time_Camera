@@ -6,10 +6,14 @@ Password được dùng mặc định.
 
 ### Download and Run
 ```
-./set_camera_time.sh 192.168.10.50
+wget -O set_camera_time.sh https://raw.githubusercontent.com/VinhLin/Time_Camera/main/set_camera_time.sh
+sudo chmod +x set_camera_time.sh
+./set_camera_time.sh 192.168.10.239
 ```
 
-
-
-
-
+### Note
+- Để ý kết quả output, nếu có output là:
+```
+{"code":0,"data":{}}
+```
+- Tức là đã setup thành công.
