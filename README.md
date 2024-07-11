@@ -17,3 +17,15 @@ sudo chmod +x set_camera_time.sh
 {"code":0,"data":{}}
 ```
 - Tức là đã setup thành công.
+
+--------------------------------------------------------------------------------
+### Xử lý errors: `literal carriage return`
+```
+dos2unix <file_script_name>
+```
+
+
+
+
+
+
